@@ -9,7 +9,7 @@ The request-reply pattern enables two-way communication between services in dist
 * Consumer polling with timeout handling
 * Synchronization primitives to bridge asynchronous operations
 
-## 2. High-Level Design
+## 2. High-Level
 Our implementation consists of three main components:
 * Kafka Sync Client: Manages request sending and response waiting
 * Reply Consumer: Handles response consumption and callback matching
