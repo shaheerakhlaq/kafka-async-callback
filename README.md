@@ -14,11 +14,6 @@ Our implementation consists of three main components:
 * Kafka Sync Client: Manages request sending and response waiting
 * Reply Consumer: Handles response consumption and callback matching
 * Response Future: Synchronization mechanism for request/response pairing
-## Flow 
-
-```
-(Request Flow: Client → Request Topic → Service → Reply Topic → Client)
-```
 
 ## 3. Key Components Explained
 Kafka Sync Client: The core client class providing synchronous communication
